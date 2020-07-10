@@ -14,6 +14,7 @@ public class trashShop : MonoBehaviour
     }
     public void Buy()
     {
+        var singleton = Item.Instance;
         for (int i = 0; i <= 1000; i++)
         {
           
@@ -22,7 +23,7 @@ public class trashShop : MonoBehaviour
                 int q = Random.Range(26, 30);
                 Itemmanager.Instance.Items[i] = q;
                
-                s.text = Item.Instance.itemMap[q].Name + "을(를) 획득햿습니다";
+                s.text = singleton.itemMap[q].Name + "을(를) 획득햿습니다";
                 break;
 
             }

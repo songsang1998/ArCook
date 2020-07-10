@@ -13,31 +13,41 @@ public class Checkin : MonoBehaviour
     public Timer times;
     float lengthx;
     float lengthy;
+    bool start;
     public GameObject objs;
     Transform p;
+    public void Starts()
+    {
+        start = true;
+        Hit();
+    }
     void Start()
     {
         p = GameObject.Find("Canvas").GetComponent<Transform>();
         Input.multiTouchEnabled = false;
         times = GetComponent<Timer>();
         count = 100;
-        Hit();
+        start = false;
+        
     }
     void Update()
     {
-        if (count < 0 && times.game == false && times.time > 0)
+        if (start)
         {
-            count = 0;
+            if (count < 0 && times.game == false && times.time > 0)
+            {
+                count = 0;
+            }
+            if (count == 0 && times.time > 0 && times.game == false)
+            {
+                times.win = true;
+            }
         }
-        if (count ==0 && times.time > 0 && times.game == false)
-        {
-            times.win = true;
-        }
-
-        if (times.game == false)
-        {
-            counts.text = count.ToString();
-        }
+            if (times.game == false)
+            {
+                counts.text = count.ToString();
+            }
+        
     }
 
     public void Hit()

@@ -28,10 +28,15 @@ public class M : MonoBehaviour
         a = Input.gyro.rotationRateUnbiased.x;
         b = Input.gyro.rotationRateUnbiased.y;
         c = Input.gyro.rotationRateUnbiased.z;
+
         if (Itemmanager.Instance.Dojon < 10)
         {
            
             Countsss();
+        }
+        if (Itemmanager.Instance.clear)
+        {
+            Itemmanager.Instance.Dojon = 9999;
         }
         
     }

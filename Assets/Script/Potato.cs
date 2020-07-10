@@ -21,6 +21,10 @@ public class Potato : MonoBehaviour
         Input.multiTouchEnabled = false;
         times = GetComponent<LoseTimer>();
         life = 3;
+        
+    }
+    public void Starts()
+    {
         StartCoroutine("Potatos");
     }
     void Update()

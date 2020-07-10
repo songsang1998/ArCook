@@ -42,5 +42,15 @@ public class Scenemove : MonoBehaviour
         PlayerPrefs.Save();
         SceneManager.LoadScene("Server");
     }
-    
+    public void Click4()
+    {
+        for (int i = 0; i <= 1000; i++)
+        {
+            PlayerPrefs.SetInt("items" + i, Itemmanager.Instance.Items[i]);
+        }
+        PlayerPrefs.SetInt("Gold", Itemmanager.Instance.Gold);
+        PlayerPrefs.SetInt("Dojon", Itemmanager.Instance.Dojon);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("Server2");
+    }
 }

@@ -11,30 +11,40 @@ public class wheat : MonoBehaviour
     Vector2 endPos;
     public Text counts;
     int count;
-    
-    
+    bool start;
+   
+
     Timer times;
     float lengthx;
     float lengthy;
+    public void Starts()
+    {
+        start = true;
+      
+    }
     void Start()
     {
         Input.multiTouchEnabled = false;
         times = GetComponent<Timer>();
         count = 0;
+        start = false;
         
     }
     void Update()
     {
-        if (count >= 700 && times.time > 0 && times.game == false)
+        if (start)
         {
-            times.win = true;
-        }
+            if (count >= 700 && times.time > 0 && times.game == false)
+            {
+                times.win = true;
+            }
 
-        if (Input.GetMouseButtonDown(0)&&times.game == false)
-        {
+            if (Input.GetMouseButtonDown(0) && times.game == false)
+            {
 
-            StartCoroutine("move");
-            
+                StartCoroutine("move");
+
+            }
         }
         counts.text = count.ToString();
     }
