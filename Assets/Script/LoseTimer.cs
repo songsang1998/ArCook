@@ -13,15 +13,22 @@ public class LoseTimer : MonoBehaviour
     public GameObject wins;
     public GameObject lose;
     public Text wintext;
+    public bool start;
     private void Awake()
     {
         win = true;
         game = false;
         time = 30f;
+        start = false;
+    }
+    public void Starts()
+    {
+        start = true;
     }
 
     private void Update()
     {
+        if (start) { 
         if (win == true && game == false && time<=0)
         {
             game = true;
@@ -53,7 +60,7 @@ public class LoseTimer : MonoBehaviour
             lose.SetActive(true);
          
         }
-
+        }
 
         timeText.text = "시간: " + Mathf.Ceil(time).ToString();
     }

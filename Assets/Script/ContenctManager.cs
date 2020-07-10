@@ -37,6 +37,8 @@ public class ContenctManager : MonoBehaviour
         }
         whoChose1 = Select.GetComponent<Itemsetting>().Number;
         Itemmanager.Instance.Gold -= singleton.itemMap[whoChose1].Gold;
+        
+        Itemmanager.Instance.WhatClear();
         Sellpage.SetActive(true);
         Sellpage.transform.Find("massage").GetComponent<Text>().text = singleton.itemMap[whoChose1].Gold.ToString()+ "원에"+ singleton.itemMap[whoChose1].Name+"을(를) 판매했습니다";
 

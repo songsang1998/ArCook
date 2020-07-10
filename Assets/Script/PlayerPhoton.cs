@@ -10,13 +10,14 @@ public Text q;
 public int CurrPlayer;
     public Text ss;
 public GameObject button;
-    public Text wintext;
+   Text wintext;
     public Photon.Realtime.Player Players;
     public GameObject panel;
     public GameObject get;
 void Start(){
         s.text = PhotonNetwork.NickName;
         CurrPlayer = PhotonNetwork.PlayerList.Length;
+        wintext=GameObject.Find("Canvas").transform.Find("get").GetComponent<Text>();
       //  Debug.Log(PhotonNetwork.PlayerList[0].NickName);
         if (CurrPlayer == 2)
         {
@@ -71,6 +72,7 @@ public override void OnPlayerEnteredRoom(Photon.Realtime.Player newPlayer)
     [PunRPC]
     void Trade(int s)
     {
+        var singleton = Item.Instance;
         for (int i = 0; i <= 1000; i++)
         {
             if (Itemmanager.Instance.Items[i] == -1)
@@ -79,10 +81,10 @@ public override void OnPlayerEnteredRoom(Photon.Realtime.Player newPlayer)
                 break;
             }
         }
-
+        
         panel.SetActive(false);
         get.SetActive(true);
-        wintext.text = (Item.instance.itemMap[s].Name + "\r\n을(를) 획득!!");
+        wintext.text = (singleton.itemMap[s].Name + "\r\n을(를) 획득!!");
         
     }
 

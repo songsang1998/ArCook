@@ -14,6 +14,11 @@ public class milk : MonoBehaviour
     float lengthx;
     float lengthy;
     public GameObject objs;
+    
+    public void Starts()
+    {
+        StartCoroutine("milks");
+    }
     Transform p;
     void Start()
     {
@@ -21,7 +26,7 @@ public class milk : MonoBehaviour
         Input.multiTouchEnabled = false;
         times = GetComponent<Timer>();
         count = 0;
-        StartCoroutine("milks");
+        
     }
     void Update()
     {

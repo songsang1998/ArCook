@@ -494,7 +494,6 @@ MonoBehaviour:
   CurrPlayer: 0
   ss: {fileID: 2145787854}
   button: {fileID: 2123584868}
-  wintext: {fileID: 2016043113}
   panel: {fileID: 636484233}
   get: {fileID: 2016043111}
 --- !u!1 &573121340

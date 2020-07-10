@@ -21,6 +21,11 @@ public class ice : MonoBehaviour
         Input.multiTouchEnabled = false;
         times = GetComponent<Timer>();
         count = 0;
+       
+    }
+    public void Starts()
+    {
+        
         StartCoroutine("ices");
     }
     void Update()

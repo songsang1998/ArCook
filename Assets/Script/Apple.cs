@@ -9,22 +9,30 @@ public class Apple : MonoBehaviour
     int count;
     
     Timer times;
-    
+    bool start;
+    public void Starts()
+    {
+        start = true;
+    }
     void Start()
     {
         Input.multiTouchEnabled = true;
         times = GetComponent<Timer>();
         count = 0;
+        start = false;
         
     }
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && times.game == false)
+        if (start)
         {
-            count++;
-            if (count >= 35 && times.time>0 )
+            if (Input.GetMouseButtonDown(0) && times.game == false)
             {
-                times.win = true;
+                count++;
+                if (count >= 35 && times.time > 0)
+                {
+                    times.win = true;
+                }
             }
         }
         counts.text = count.ToString();

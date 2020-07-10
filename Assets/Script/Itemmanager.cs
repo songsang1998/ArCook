@@ -9,6 +9,7 @@ public class Itemmanager : MonoBehaviour
     public static Itemmanager Instance;
     public int Gold;
     public int Dojon;
+    public bool clear;
     DateTime dt; 
     private void Awake()
     {
@@ -23,6 +24,8 @@ public class Itemmanager : MonoBehaviour
     }
     public void Start()
     {
+        clear = false;
+        
         for (int i = 0; i <= 1000; i++)
         {
             if (PlayerPrefs.HasKey("items" + i))
@@ -34,10 +37,14 @@ public class Itemmanager : MonoBehaviour
                 Items[i] = -1;
             }
         }
+
         if (PlayerPrefs.HasKey("Gold"))
         {
             Gold = PlayerPrefs.GetInt("Gold");
-
+            if (Gold <= 0)
+            {
+                clear = true;
+            }
         }
         else
         {
@@ -45,7 +52,7 @@ public class Itemmanager : MonoBehaviour
             PlayerPrefs.SetInt("Gold", Gold);
             PlayerPrefs.Save();
         }
-
+        
         if (PlayerPrefs.HasKey("Dojon"))
         {
 
@@ -77,8 +84,14 @@ public class Itemmanager : MonoBehaviour
     }
     public List<int> Items = new List<int>();
     public GameObject[] ItemImage;
-
-
+    
+    public void WhatClear()
+    {
+        if (Gold <= 0)
+        {
+            clear = true;
+        }
+    }
     public void Set()
     {   /*
         for (int i = 0; i <= 1000; i++)
