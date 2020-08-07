@@ -39,6 +39,22 @@ MonoBehaviour:
   - give
   - trade
   - Trade
+  - Setting
+  - Player
+  - Youchip
+  - gamego
+  - Gamego
+  - UP
+  - Win
+  - bating
+  - lose
+  - batting
+  - Calld
+  - Draw
+  - Winpanles
+  - Callvoid
+  - Dievoid
+  - Rasevoid
   DisableAutoOpenWizard: 1
   ShowSettings: 0
   DevRegionSetOnce: 1

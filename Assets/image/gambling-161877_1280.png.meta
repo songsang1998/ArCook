@@ -1,0 +1,555 @@
+fileFormatVersion: 2
+guid: fd865f2f6ddc004499281d2609eb4755
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1645366409778463038
+    second: gambling-161877_1280_0
+  - first:
+      213: -6170501996639163780
+    second: gambling-161877_1280_1
+  - first:
+      213: 855769780173676965
+    second: gambling-161877_1280_2
+  - first:
+      213: 8542676109465329232
+    second: gambling-161877_1280_3
+  - first:
+      213: -5379234766013292186
+    second: gambling-161877_1280_4
+  - first:
+      213: -3341034456877578564
+    second: gambling-161877_1280_5
+  - first:
+      213: 8776171628635436716
+    second: gambling-161877_1280_6
+  - first:
+      213: 1330773589495792597
+    second: gambling-161877_1280_7
+  - first:
+      213: 7905678189701730836
+    second: gambling-161877_1280_8
+  - first:
+      213: -1596441783411069553
+    second: gambling-161877_1280_9
+  - first:
+      213: 5987064116704155137
+    second: gambling-161877_1280_10
+  - first:
+      213: 7300065787400888558
+    second: gambling-161877_1280_11
+  - first:
+      213: -6464250328222943572
+    second: gambling-161877_1280_12
+  - first:
+      213: 6588014264429483279
+    second: gambling-161877_1280_13
+  - first:
+      213: -8732951983471553724
+    second: gambling-161877_1280_14
+  - first:
+      213: 3585292087284172103
+    second: gambling-161877_1280_15
+  - first:
+      213: 3358391573119185484
+    second: gambling-161877_1280_16
+  - first:
+      213: -36181836020135359
+    second: gambling-161877_1280_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gambling-161877_1280_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 194
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76064fabe034ff842b20928e5db938e4
+      internalID: 1645366409778463038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 340
+        width: 200
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b7c136c7b86e0449858c739c3e53e3
+      internalID: -6170501996639163780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 340
+        width: 197
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c358eefd64ab31d4bb9f086fcde580e9
+      internalID: 855769780173676965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_3
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 408
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9eb3b97ad7f8d48a20e65c95d0ea16
+      internalID: 8542676109465329232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_4
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 340
+        width: 196
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75300668d63e7445a59a6366924b4c8
+      internalID: -5379234766013292186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_5
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 336
+        width: 196
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096c5048377310c478db82dc79db612e
+      internalID: -3341034456877578564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_6
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 336
+        width: 196
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8a5376a44ac3f4a966ae46a000a604
+      internalID: 8776171628635436716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_7
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 404
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66aa6839f6004a34da378ceb62717cbf
+      internalID: 1330773589495792597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 196
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd228275e04dfd429befe9b2b0b757d
+      internalID: 7905678189701730836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 171
+        width: 198
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9782e96823ce9fe4898301c3e841f7d6
+      internalID: -1596441783411069553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 168
+        width: 196
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55177ec57c908564ea80effdbc560a6a
+      internalID: 5987064116704155137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_11
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 240
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4312ce204c1a846a8bb36aa60e86e7
+      internalID: 7300065787400888558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 174
+        width: 196
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06df79503b336e24684017c4a842b4eb
+      internalID: -6464250328222943572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_13
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 176
+        width: 196
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f186493daf669634a80977b3ef6d8f3d
+      internalID: 6588014264429483279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_14
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 176
+        width: 195
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58be1e81b3bfa054b999262f354484c5
+      internalID: -8732951983471553724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_15
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 244
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e09044919a41244eb09c9369e318a78
+      internalID: 3585292087284172103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 168
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af897dee75f33144485fff379f3cc766
+      internalID: 3358391573119185484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gambling-161877_1280_17
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 168
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7384002de8022684eb91a30ef3ab56cc
+      internalID: -36181836020135359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 89e01845798d0834c917196e8a671146
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
